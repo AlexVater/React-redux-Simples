@@ -6,10 +6,10 @@ function App() {
         <div className="App">
             <h1>Exercício React-Redux (Simples)</h1>
             <div className="row">
-                <Card>X</Card>
+                <Card title="Card 1">X</Card>
             </div>
             <div className="row">
-                <Card>Y</Card>
+                <Card title="Card 2">Y</Card>
             </div>
         </div>
     );
