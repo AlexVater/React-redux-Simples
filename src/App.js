@@ -1,0 +1,18 @@
+import './App.css';
+import Card from "./components/Card";
+
+function App() {
+    return (
+        <div className="App">
+            <h1>Exercício React-Redux (Simples)</h1>
+            <div className="row">
+                <Card>X</Card>
+            </div>
+            <div className="row">
+                <Card>Y</Card>
+            </div>
+        </div>
+    );
+}
+
+export default App;
