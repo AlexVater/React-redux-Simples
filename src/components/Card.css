@@ -14,9 +14,44 @@
 .Card .Header .Title{
     flex: 1;
     padding: 5px;
-    background-color: #469901;
 }
 
-.Card .Header .Content{
+.Card .Content{
     padding: 20px;
+}
+
+.Red .Header{
+    color: #fff;
+    background-color: #E03C1F;
+}
+
+.Red .Content{
+    background-color: #E68270;
+}
+
+.Green .Header{
+    color: #fff;
+    background-color: #50b71c;
+}
+
+.Green .Content{
+    background-color: #7ed255;
+}
+
+.Blue .Header{
+    color: #fff;
+    background-color: #1F8DE0;
+}
+
+.Blue .Content{
+    background-color: #70B3E6;
+}
+
+.Purple .Header{
+    color: #fff;
+    background-color: #AA22E0;
+}
+
+.Purple .Content{
+    background-color: #C573E6;
 }
