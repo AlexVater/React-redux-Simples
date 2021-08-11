@@ -7,7 +7,7 @@ import Sorteio from "./components/Sorteio";
 function App() {
     return (
         <div className="App">
-            <h1>Exercício React-Redux (Simples)</h1>
+            <h1>React-Redux</h1>
             <div className="row">
                 <Intervalo />
             </div>

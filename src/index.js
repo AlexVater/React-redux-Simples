@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 
 import {Provider} from "react-redux";
-import storeConfig from "./store/storeConfig";
+import Store from "./store/store";
 
-const store = storeConfig()
+const store = Store()
 
 ReactDOM.render(
     <Provider store={store}>
